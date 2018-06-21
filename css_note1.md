@@ -68,10 +68,10 @@ Firefox Quantum 60.0.2(64位)
 
 
 看下面这个页面，然后我们对其页面进行缩放
-![图四（一）.png](images/图四\（一\）.png)
-![图四（二）.png](images/图四\（二\）.png)
-![图四（三）.png](images/图四\（三\）.png)
-![图四（四）.png](images/图四\（四\）.png)
+![图四（一）.png](images/图四（一）.png)
+![图四（二）.png](images/图四（二）.png)
+![图四（三）.png](images/图四（三）.png)
+![图四（四）.png](images/图四（四）.png)
 
 
 
