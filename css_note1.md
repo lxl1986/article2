@@ -6,7 +6,7 @@ this is only a conceptual model.
 2. media type
 3. retrieve all style sheets associated with media type
 4. annotate every element of the document tree by assigning a single value to every property (applicable)
-~~cascading and inhritance~~
+*cascading and inhritance*
 part of the caculation depends on the formatting algorithm.(screen -> visual formatting model)
 5. from the annotated document tree, generate a formatting struture.
 6. Transfer the formatting structure to the target medium.
@@ -59,23 +59,23 @@ actual viewport
 我使用的分辨率1920*1080（操作系统来看，就是1920*1080逻辑像素映射到物理像素。
 从浏览器来看，可以认为自己所在的操作系统上，设备物理像素1920*1080）。
 Firefox Quantum 60.0.2(64位)
-见[图一.png](images/图一.png)
+见！[图一.png](images/图一.png)
 
 我们先打开一个网页
-见[图二.png](images/图二.png)
+见！[图二.png](images/图二.png)
 然后我们调整浏览器窗口大小
-见图三.png
+见![图三.png](images/图三.png)
 
 
 看下面这个页面，然后我们对其页面进行缩放
-[图四（一）.png](images/图四（一）.png)
-[图四（二）.png](images/图四（二）.png)
-[图四（三）.png](images/图四（三）.png)
-[图四（四）.png](images/图四（四）.png)
+！[图四（一）.png](images/图四\（一\）.png)
+！[图四（二）.png](images/图四\（二\）.png)
+！[图四（三）.png](images/图四\（三\）.png)
+！[图四（四）.png](images/图四\（四\）.png)
 
 
 
-再看看[图五.png](images/图五.png)
+再看看！[图五.png](images/图五.png)
 
 
 
