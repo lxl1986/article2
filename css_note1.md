@@ -195,3 +195,6 @@ Google Nexus 7
 IE11
 @-ms-viewport{width:500px;}
 缩放不起作用了。调整窗口大小，document.documentElement.clientWidth一直是500px，就是不管窗口变小变大，viewport一直是500px，devicePixelRatio一直在变，窗口实际占显示器大小与500PX之比；screen.width也是同时变化。
+
+2019年1月16日16:37:37
+关于 document.documentElement.clientWidth, document.documentElement.clientHeight ，还是有很多理解不够深刻的地方。什么是viewport，理解没啥大问题，关于如何计算，有些错误。当时，width方向是没有滚动条的，而height方向有了滚动条，这个就错了。window.innerHeight，window.innerWidth 计算 viewport会加上滚动条，而我认为viewport不该包含滚动条。我们只要加上 html{width:100%; height:100%;}，那么这个百分比是相对于 ICB 的，而 ICB 的尺寸就是通过 viewport 产生，（移动端用这句 <meta name="viewport" content="width=device-width;"> 控制一下），此时 d.d.cW，d.d.cH 就是 viewport 尺寸。
